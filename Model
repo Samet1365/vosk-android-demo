@@ -1,0 +1,5 @@
+import org.vosk.Model;
+import org.vosk.Recognizer;
+
+Model model = new Model("/path/to/farsi-model");
+Recognizer recognizer = new Recognizer(model, 16000.0f);
